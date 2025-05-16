@@ -107,11 +107,9 @@ Not: Görsel çizgiler PowerShell'deki varsayılan Out-GridView davranışı ned
 
 Aşağıdaki Office türleri desteklenmektedir (örnek):
 
-* ProPlus2016, ProPlus2019, ProPlus2021
-* ProjectPro2019, ProjectStd2019
-* VisioPro2021, VisioStd2021
+* Office 2013 ve sonraki sürümler
 
-> DLL yalnızca desteklediği Office ürünleri için anahtar üretebilir. Yüklü olmayan türler göz ardı edilir.
+DLL dosyası yalnızca desteklediği Office ürünleri için anahtar üretebilir. Yüklü olmayan türler göz ardı edilir.
 
 ---
 
@@ -139,6 +137,7 @@ Windows XP / Vista (PowerShell 5.1 çalıştırılamaz)
 
 ARM tabanlı Windows sürümleri (DLL yüklemesi başarısız olabilir)
 
+Bu sürümlerde bazı Powershell kodları desteklenmediği için betik dosyası hata verebilir.
 
 ## ⚠️ Gereksinimler
 
