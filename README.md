@@ -1,8 +1,7 @@
 # TSF Activation
 
 
-TSF Activation
-
+---
 
 ````markdown
 # 🔐 PowerShell License Activation Script
@@ -124,6 +123,3 @@ Her türlü öneri ve geri bildirim için lütfen GitHub üzerinden katkıda bul
 ---
 
 ```
-
----
-
