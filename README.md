@@ -8,7 +8,7 @@
 
 <details>
 
-  ![sample]([https://github.com/abdullah-erturk/tsf_activation/blob/main/TR/aktivasyon_%C3%B6nizleme.jpg)
+  ![sample](https://github.com/abdullah-erturk/tsf_activation/blob/main/TR/aktivasyon_%C3%B6nizleme.jpg)
   
 ## Teşekkür
 
