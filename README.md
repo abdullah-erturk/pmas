@@ -1,6 +1,6 @@
 # TSF Activation
 
-## Teşekkürler
+## Teşekkür
 
 - Projede kullanılan LibTSforge.dll dosyasını geliştiren [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
 
