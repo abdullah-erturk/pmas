@@ -15,10 +15,9 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 - ✅ `LibTSforge.dll` desteği ile ürün anahtarı üretimi
 - ✅ Out-GridView ile kullanıcı dostu grafik seçim ekranı
 - ✅ KMS, MAK, RETAIL, OEM, AVMA gibi lisans türleriyle uyumlu
-- ✅ Yalnızca **gerçekten yüklü olan Windows** ürünlerini tespit eder
-- ✅ Office için yalnızca **LibTSforge.dll’in desteklediği ürün türlerinden birer tanesini** lisanslar
+- ✅ Office için yalnızca **LibTSforge.dll’in desteklediği ürün türlerinden birer tanesini** lisanslar (sessiz modda)
 - ✅ `-w` ve `-o` parametreleri ile otomatik mod desteği
-- ✅ KMS ürünleri için sahte IP atayarak lisans uyarılarını engeller
+- ✅ KMS ürünleri için sahte IP atayarak 'Office Genunine Banner' lisans uyarılarını engeller
 - ✅ Lisanslı ürünlerde işlem yapmadan önce kullanıcı onayı ister
 - ✅ Base64 + GZIP ile script içine gömülü DLL dosyası
 
@@ -45,7 +44,7 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 .\Activate.ps1 -w
 ```
 
-* Sadece yüklü ve lisanssız Windows ürünleri işlenir
+* Sadece Windows ürünü işlenir
 * Office lisanslaması yapılmaz
 
 ---
@@ -58,14 +57,13 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 
 * `LibTSforge.dll` tarafından desteklenen Office ürün türlerinden
   yalnızca bilgisayarda **yüklü olanlara** karşılık gelen **birer tane** seçilir
-* “PreviewVL” içeren sürümler dışlanır
 * Gerekirse KMS IP’si atanır
 
 ---
 
 ## ⚙️ Teknik Detaylar
 
-* `Set-RandomKMSAddress`: Out-GridView modunda sadece KMS kanalına sahip ürün seçilirse ve yalnızca bir kez çalışır.
+* `Set-RandomKMSAddress`: Out-GridView modunda sadece KMS kanalına sahip ürün seçilirse çalışır.
 * `GetRandomKey`: Product ID’ye özel rastgele lisans anahtarı üretir.
 * `Activate-License`: Ürün türüne göre ilgili sınıfı çağırarak lisanslama yapar.
 * `LibTSforge.dll`: Script içinde Base64-GZIP kodlu olarak gömülüdür, bellekte çalıştırılır.
@@ -101,6 +99,31 @@ Aşağıdaki Office türleri desteklenmektedir (örnek):
 
 ---
 
+✅ Uyumlu Windows Sürümleri
+🎯 Desteklenen platformlar:
+Windows 10 
+Windows 11
+Windows Server 2016 ve üstü
+
+Betik, KMS/Mak/Retail türlerini desteklediğinden bu sürümlerin tümüyle uyumludur. Ayrıca AVMA destekli Windows Server sürümleri için de uygundur.
+
+⚠️ Çalışması için gereken sistem özellikleri:
+PowerShell 5.1 veya üzeri (Windows 10 ile birlikte yerleşik gelir)
+
+.NET Framework 4.x (Varsayılan olarak Windows 10/11’de mevcuttur)
+
+Yönetici olarak çalıştırılmalıdır (KMS IP ve ürün lisanslama işlemleri için)
+
+64-bit işletim sistemi önerilir (özellikle bellek içi DLL yüklemesi açısından)
+
+⛔ Desteklenmeyen sistemler:
+Windows 7 / 8 / 8.1 (resmî destek sona erdi, PowerShell ve .NET sürümleri yetersiz olabilir)
+
+Windows XP / Vista (PowerShell 5.1 çalıştırılamaz)
+
+ARM tabanlı Windows sürümleri (DLL yüklemesi başarısız olabilir)
+
+
 ## ⚠️ Gereksinimler
 
 * **PowerShell 5.1 veya üzeri**
@@ -111,7 +134,7 @@ Aşağıdaki Office türleri desteklenmektedir (örnek):
 
 ## 📄 Lisans
 
-Bu script yalnızca kişisel kullanım içindir. Microsoft ürünleri için lisanslama işlemleri, yürürlükteki kullanım şartlarına uygun olarak yapılmalıdır.
+Bu script yalnızca kişisel kullanım ve eğitim içindir. Microsoft ürünleri için lisanslama işlemleri, yürürlükteki kullanım şartlarına uygun olarak yapılmalıdır.
 
 ---
 
