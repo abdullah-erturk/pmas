@@ -1,9 +1,10 @@
 # TSF Activation
 
-Bu proje için MASSGRAVE ekibine çok teşekkürler 🎉
-https://github.com/massgravel/TSforge
+## Teşekkürler
 
-Powershell dosyasını hazırlamamda ilham kaynağı olan (MDL) Dark Vador'a çok teşekkürler 🎉
+- Bu proje için ilham kaynağı olan [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
+
+- PowerShell betiğini hazırlamamda bana ilham veren (MDL) **Dark Vador**'a özel teşekkür 🎉
 
 ---
 
