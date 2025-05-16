@@ -41,7 +41,7 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 * Kullanıcı seçim yapar
 * KMS IP adresi gerekiyorsa bir kez rastgele atanır
 * Ürünler lisanslanır
-* KMS Lisans sadece bu modda kullanıcı tercihine göre yapılır ve KMS lisans süresi 4000 yılı aşkındır
+* KMS Lisans yöntemi sadece bu modda kullanıcı tercihine göre yapılır ve KMS lisans süresi 4000 yılı aşkındır
 
 ---
 
