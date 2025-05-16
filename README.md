@@ -20,7 +20,7 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 - ✅ `LibTSforge.dll` desteği ile ürün anahtarı üretimi
 - ✅ Out-GridView ile kullanıcı dostu grafik seçim ekranı
 - ✅ KMS, MAK, RETAIL, OEM, AVMA gibi lisans türleriyle uyumlu
-- ✅ Office için yalnızca **LibTSforge.dll’in desteklediği ürün türlerinden birer tanesini** lisanslar (sadece katılımsız modda)
+- ✅ Office ürünleri için yalnızca **LibTSforge.dll’in desteklediği ürün türlerinden birer tanesini** lisanslar (sadece katılımsız modda)
 - ✅ `-w` ve `-o` parametreleri ile otomatik mod desteği
 - ✅ KMS ürünleri için sahte IP adresi atayarak 'Office Genunine Banner' lisans uyarılarını engeller
 - ✅ Lisanslı ürünlerde işlem yapmadan önce kullanıcı onayı ister
