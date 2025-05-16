@@ -34,7 +34,7 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 ### 1. Grafiksel (Out-GridView) Mod – Parametresiz
 
 ```powershell
-.\Activate.ps1
+.\activate.ps1
 ````
 
 * Yüklü Windows ve Office ürünleri listelenir
@@ -48,7 +48,7 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 ### 2. Yalnızca Windows Ürünlerini Lisansla
 
 ```powershell
-.\Activate.ps1 -w
+.\activate.ps1 -w
 ```
 
 * Sadece Windows ürünü işlenir, Office lisanslaması yapılmaz
@@ -59,7 +59,7 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 ### 3. Yalnızca Office (DLL destekli) Ürünlerini Lisansla
 
 ```powershell
-.\Activate.ps1 -o
+.\activate.ps1 -o
 ```
 
 * Sadece Office ürünü işlenir, Windows lisanslaması yapılmaz
@@ -70,7 +70,7 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 ### 4. Windows + Office (DLL destekli) Ürünlerini Lisansla
 
 ```powershell
-.\Activate.ps1 -w -o
+.\activate.ps1 -w -o
 ```
 
 * Windows ve Office ürünleri aynı anda işlenir
