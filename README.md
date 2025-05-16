@@ -1,5 +1,9 @@
 # TSF Activation
 
+     Türkçe Açıklama
+
+<details>
+  
 ## Teşekkür
 
 - Projede kullanılan LibTSforge.dll dosyasını geliştiren [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
@@ -148,3 +152,9 @@ Bu script yalnızca kişisel kullanım ve eğitim içindir. Microsoft ürünleri
 Her türlü öneri ve geri bildirim için lütfen GitHub üzerinden katkıda bulunun.
 
 ---
+</details>
+
+     English Explanation
+
+<details>
+</details>
