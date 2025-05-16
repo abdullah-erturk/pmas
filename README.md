@@ -29,7 +29,7 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 - ✅ KMS ürünleri için sahte rastgele oluşturulmuş IP adresi atayarak **Office Genuine Banner** lisans uyarılarını engeller
 - ✅ Lisanslı ürünlerde işlem yapmadan önce kullanıcı onayı ister
 - ✅ Base64 + GZIP ile script içine gömülü DLL dosyası
-- ✅ run.bat dosyası ile kolay kullanım
+- ✅ `run.bat` dosyası ile kolay kullanım
 
 ---
 
