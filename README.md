@@ -1,5 +1,9 @@
 # TSF Activation
 
+Bu proje için MASSGRAVE ekibine çok teşekkürler 🎉
+https://github.com/massgravel/TSforge
+
+Powershell dosyasını hazırlamamda ilham kaynağı olan (MDL) Dark Vador'a çok teşekkürler 🎉
 
 ---
 
@@ -35,6 +39,7 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 * Kullanıcı seçim yapar
 * KMS IP adresi gerekiyorsa bir kez rastgele atanır
 * Ürünler lisanslanır
+* KMS Lisans sadece bu modda kullanıcı tercihine göre yapılır ve KMS lisans süresi 4000 yılı aşkındır
 
 ---
 
@@ -44,8 +49,8 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 .\Activate.ps1 -w
 ```
 
-* Sadece Windows ürünü işlenir
-* Office lisanslaması yapılmaz
+* Sadece Windows ürünü işlenir, Office lisanslaması yapılmaz
+* Zerocid yöntemiyle kalıcı lisans uygulanır
 
 ---
 
@@ -55,10 +60,19 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 .\Activate.ps1 -o
 ```
 
+* Sadece Office ürünü işlenir, Windows lisanslaması yapılmaz
 * `LibTSforge.dll` tarafından desteklenen Office ürün türlerinden
   yalnızca bilgisayarda **yüklü olanlara** karşılık gelen **birer tane** seçilir
-* Gerekirse KMS IP’si atanır
+* Zerocid yöntemiyle kalıcı lisans uygulanır
 
+### 4. Windows + Office (DLL destekli) Ürünlerini Lisansla
+
+```powershell
+.\Activate.ps1 -w -o
+```
+
+* Windows ve Office ürünleri aynı anda işlenir
+* Zerocid yöntemiyle kalıcı lisans uygulanır
 ---
 
 ## ⚙️ Teknik Detaylar
