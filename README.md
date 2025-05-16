@@ -7,6 +7,8 @@
      Türkçe Açıklama
 
 <details>
+
+  ![sample]([https://github.com/abdullah-erturk/tsf_activation/blob/main/preview.jpg](https://github.com/abdullah-erturk/tsf_activation/blob/main/TR/aktivasyon_%C3%B6nizleme.jpg)
   
 ## Teşekkür
 
@@ -161,6 +163,8 @@ Her türlü öneri ve geri bildirim için lütfen GitHub üzerinden katkıda bul
      English Explanation
 
 <details>
+
+![sample](https://github.com/abdullah-erturk/tsf_activation/blob/main/ENG/activation_preview.jpg)
 
 ## Thanks
 
