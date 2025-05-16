@@ -115,29 +115,27 @@ Not: Görsel çizgiler PowerShell'deki varsayılan Out-GridView davranışı ned
 
 ✅ Uyumlu Windows Sürümleri
 🎯 Desteklenen platformlar:
-Windows 10 
-Windows 11
-Windows Server 2016 ve üstü
+
+* Windows 10
+* Windows 11
+* Windows Server 2016 and newer
 
 Betik, KMS/Mak/Retail türlerini desteklediğinden bu sürümlerin tümüyle uyumludur. Ayrıca AVMA destekli Windows Server sürümleri için de uygundur.
 
 ⚠️ Çalışması için gereken sistem özellikleri:
-PowerShell 5.1 veya üzeri (Windows 10 ile birlikte yerleşik gelir)
 
-.NET Framework 4.x (Varsayılan olarak Windows 10/11’de mevcuttur)
+* PowerShell 5.1 veya üzeri (Windows 10 ile birlikte yerleşik gelir)
+* .NET Framework 4.x (Varsayılan olarak Windows 10/11’de mevcuttur)
+* Yönetici olarak çalıştırılmalıdır (KMS IP adres ataması ve ürün lisanslama işlemleri için)
+* 64-bit işletim sistemi önerilir (özellikle bellek içi DLL yüklemesi açısından)
 
-Yönetici olarak çalıştırılmalıdır (KMS IP adres ataması ve ürün lisanslama işlemleri için)
-
-64-bit işletim sistemi önerilir (özellikle bellek içi DLL yüklemesi açısından)
 
 ⛔ Desteklenmeyen sistemler:
-Windows 7 / 8 / 8.1 (resmî destek sona erdi, PowerShell ve .NET sürümleri yetersiz olabilir)
 
-Windows XP / Vista (PowerShell 5.1 çalıştırılamaz)
-
-ARM tabanlı Windows sürümleri (DLL yüklemesi başarısız olabilir)
-
-Bu sürümlerde bazı Powershell kodları desteklenmediği için betik dosyası hata verebilir.
+* Windows 7 / 8 / 8.1 (resmî destek sona erdi, PowerShell ve .NET sürümleri yetersiz olabilir)
+* Windows XP / Vista (PowerShell 5.1 çalıştırılamaz)
+* ARM tabanlı Windows sürümleri (DLL yüklemesi başarısız olabilir)
+* Bu sürümlerde bazı Powershell kodları desteklenmediği için betik dosyası hata verebilir.
 
 ## ⚠️ Gereksinimler
 
