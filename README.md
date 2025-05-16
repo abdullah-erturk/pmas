@@ -3,7 +3,6 @@
 
 ---
 
-````markdown
 # 🔐 PowerShell License Activation Script
 
 Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak için tasarlanmış esnek ve modüler bir çözümdür. Office lisanslamasında `LibTSforge.dll` adlı özel bir .NET kütüphanesini bellekten çalıştırır. GUI veya sessiz modda çalışabilir.
@@ -121,5 +120,3 @@ Bu script yalnızca kişisel kullanım içindir. Microsoft ürünleri için lisa
 Her türlü öneri ve geri bildirim için lütfen GitHub üzerinden katkıda bulunun.
 
 ---
-
-```
