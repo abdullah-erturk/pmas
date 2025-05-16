@@ -2,7 +2,7 @@
 
 ## Teşekkürler
 
-- Bu proje için ilham kaynağı olan [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
+- Projede kullanılan LibTSforge.dll dosyasını geliştiren [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
 
 - PowerShell betiğini hazırlamamda bana ilham veren (MDL) **Dark Vador**'a özel teşekkür 🎉
 
