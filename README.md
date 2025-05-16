@@ -103,16 +103,6 @@ Not: Görsel çizgiler PowerShell'deki varsayılan Out-GridView davranışı ned
 
 ---
 
-## 🔐 DLL Destekli Office Ürünleri
-
-Aşağıdaki Office türleri desteklenmektedir (örnek):
-
-* Office 2013 ve sonraki sürümler
-
-DLL dosyası yalnızca desteklediği Office ürünleri için anahtar üretebilir. Yüklü olmayan türler göz ardı edilir.
-
----
-
 ✅ Uyumlu Windows Sürümleri
 🎯 Desteklenen platformlar:
 Windows 10 
