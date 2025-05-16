@@ -8,7 +8,7 @@
 
 ---
 
-# 🔐 PowerShell License Activation Script
+# 🔐 PowerShell TSF Activation Script
 
 Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak için tasarlanmış esnek ve modüler bir çözümdür. Office lisanslamasında `LibTSforge.dll` adlı özel bir .NET kütüphanesini bellekten çalıştırır. GUI veya sessiz modda çalışabilir.
 
