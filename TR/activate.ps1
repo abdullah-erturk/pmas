@@ -6,7 +6,7 @@
 # Tüm övgüler bu üstatlara :)
 
 
-# activate.ps1 betik dosyası Abdullah ERTÜRK (github.com/abdullah-erturk) tarafından otomatik kullanım için değiştirildi.
+# activate.ps1 betik dosyası Abdullah ERTÜRK (https://github.com/abdullah-erturk/tsf_activation) tarafından otomatik kullanım için değiştirildi.
 
 
 param (
@@ -69,7 +69,7 @@ function Set-RandomKMSAddress {
         }
     }
 
-    # Set KMS address only for products activated with KMS
+    # KMS adresini yalnızca KMS ile etkinleştirilen ürünler için ayarlayın
     if ($productDescription -match 'KMS|VOLUME_KMS') {
         $rand = New-Object System.Random
         $rand_A = [int](192 + $rand.Next(0, 63))     # 193-255
@@ -175,7 +175,7 @@ function Main {
         return
     }
 
-    # Check if it is licensed
+    # Lisanslı olup olmadığını kontrol et
     $fullyLicensed = $true
     foreach ($item in $selectionList) {
         if ($item.Description -notmatch 'RETAIL|MAK|OEM|KMS|VOLUME') {
@@ -184,18 +184,43 @@ function Main {
         }
     }
 
-	if ($fullyLicensed) {
-		Write-Host
-		Write-Host "Tüm ürünler lisanslı görünüyor." -ForegroundColor Cyan
-		Write-Host
-		if ($w -or $o) {
-			Write-Host
-			Write-Host "Lisanslama süreci sonlandırıldı." -ForegroundColor Yellow
-			Write-Host
-			return
-		}
+if ($fullyLicensed) {
+    Write-Host
+    Write-Host "Tüm ürünler lisanslı görünüyor." -ForegroundColor Cyan
+    Write-Host
+
+    if ($w -or $o) {
+        Write-Host "Lisanslama süreci yine de devam etmeli mi? (E/H):" -ForegroundColor Yellow
+        Write-Host
+        Write-Host "(5 saniye içinde HAYIR cevabı vermezseniz lisanslama işlemi devam edecek...)" -ForegroundColor Gray
+
+        $answer = $null
+        $timeout = 5
+        $stopwatch = [System.Diagnostics.Stopwatch]::StartNew()
+
+        while ($stopwatch.Elapsed.TotalSeconds -lt $timeout) {
+            if ([System.Console]::KeyAvailable) {
+                $key = [System.Console]::ReadKey($true)
+                if ($key.Key -eq 'E' -or $key.Key -eq 'H') {
+                    $answer = $key.Key
+                    break
+                }
+            }
+            Start-Sleep -Milliseconds 100
+        }
+
+        if ($answer -eq 'H') {
+            Write-Host
+            Write-Host "Lisanslama süreci sonlandırıldı." -ForegroundColor Yellow
+            Write-Host
+            return
+        }
+
+        Write-Host
+        Write-Host "Lisanslama süreci devam ediyor..." -ForegroundColor Green
+        Write-Host
+    }
 		else {
-			Write-Host
 			Write-Host "Lisanslama süreci yine de devam etmeli mi? (E/H): " -NoNewline
 			$key = $Host.UI.RawUI.ReadKey("IncludeKeyDown").Character.ToString().ToUpper()
 			Write-Host
@@ -247,19 +272,19 @@ function Main {
                 continue
             }
             Activate-License -desc $item.Description -ver $ver -prod $prod -id $tsactid
-            Write-Host "--------------------------------------"
+            Write-Host "--------------------------------------" -ForegroundColor White
         }
     }
 }
 
 
-# Script start
+# Script başlangıcı
 cls
 Write-Host
 Write-Host "Lisans ve ürün bilgileri toplanıyor, lütfen sabırla bekleyin..." -ForegroundColor Green
 Main
 
-# Exit behavior
+# Çıkış davranışı
 if (-not $w -and -not $o) {
     Write-Host
     Write-Host "Çıkış için Enter tuşuna basın" -ForegroundColor Red

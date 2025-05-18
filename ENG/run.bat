@@ -5,12 +5,12 @@
  :: All praise to these friends :)
  
  
- :: The activate.ps1 script file was modified for automatic use by Abdullah ERTÜRK (https://github.com/abdullah-erturk)
+ :: The activate.ps1 script file was modified for automatic use by Abdullah ERTÜRK (https://github.com/abdullah-erturk/tsf_activation)
  
- :: run.bat betik dosyası --> Abdullah ERTÜRK (https://github.com/abdullah-erturk/tsf_activation)
+ :: run.bat file --> Abdullah ERTÜRK (https://github.com/abdullah-erturk/tsf_activation)
 
 @echo off
-title TSF Activation by mephistooo2 ^| TNCTR.^com
+title TSF Activation v2 by mephistooo2  ^| TNCTR.^com
 color 0A
 pushd %~dp0
 

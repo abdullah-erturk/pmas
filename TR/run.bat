@@ -5,12 +5,12 @@
  :: Tm ”vgler bu arkadaŸlara :) 
 
 
- :: activate.ps1 betik dosyas Abdullah ERTšRK (https://github.com/abdullah-erturk) tarafndan otomatik kullanm i‡in de§iŸtirildi.
+ :: activate.ps1 betik dosyas Abdullah ERTšRK (https://github.com/abdullah-erturk/tsf_activation) tarafndan otomatik kullanm i‡in de§iŸtirildi.
  
  :: run.bat betik dosyas --> Abdullah ERTšRK (https://github.com/abdullah-erturk/tsf_activation)
  
 @echo off
-title TSF Activation by mephistooo2 ^| TNCTR.^com
+title TSF Activation v2 by mephistooo2  ^| TNCTR.^com
 color 0A
 pushd %~dp0
 
