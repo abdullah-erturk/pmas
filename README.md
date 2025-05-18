@@ -2,7 +2,7 @@
 
 ![sample](https://github.com/abdullah-erturk/tsf_activation/blob/main/preview.jpg)
 
-# TSF Activation
+# Powershell TSF Activation
 
      Türkçe Açıklama
 
