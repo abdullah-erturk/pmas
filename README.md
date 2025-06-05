@@ -12,9 +12,8 @@
   
 ## Teşekkür
 
-- Projede kullanılan LibTSforge.dll dosyasını geliştiren [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
-
-- PowerShell betiğini hazırlamamda bana ilham veren (MDL) **Dark Vador**'a özel teşekkür 🎉
+* Projede kullanılan LibTSforge.dll dosyasını geliştiren [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
+* PowerShell betiğini hazırlamamda bana ilham veren (MDL) **Dark Vador**'a özel teşekkür 🎉
 
 ---
 
@@ -35,17 +34,13 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 - ✅ KMS ürünleri için sahte rastgele oluşturulmuş IP adresi atayarak **Office Genuine Banner** lisans uyarılarını engeller
 - ✅ Lisanslı ürünlerde işlem yapmadan önce kullanıcı onayı ister
 - ✅ Base64 + GZIP ile script içine gömülü DLL dosyası
-- ✅ `run.bat` dosyası ile kolay kullanım
+- ✅ `TSF Activation.bat` dosyası ile kolay kullanım
 
 ---
 
 ## 🚀 Kullanım Şekilleri
 
 ### 1. Grafiksel (Out-GridView) Mod – Parametresiz
-
-```powershell
-.\activate.ps1
-````
 
 * Yüklü Windows ve Office ürünleri listelenir
 * Kullanıcı seçim yapar
@@ -57,10 +52,6 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 
 ### 2. Yalnızca Windows Ürünlerini Lisansla
 
-```powershell
-.\activate.ps1 -w
-```
-
 * Sadece Windows ürünü işlenir, Office lisanslaması yapılmaz
 * Zerocid yöntemiyle kalıcı lisans uygulanır
 
@@ -68,20 +59,12 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 
 ### 3. Yalnızca Office (DLL destekli) Ürünlerini Lisansla
 
-```powershell
-.\activate.ps1 -o
-```
-
 * Sadece Office ürünü işlenir, Windows lisanslaması yapılmaz
 * `LibTSforge.dll` tarafından desteklenen Office ürün türlerinden
   yalnızca bilgisayarda **yüklü olanlara** karşılık gelen **birer tane** seçilir
 * Zerocid yöntemiyle kalıcı lisans uygulanır
 
 ### 4. Windows + Office (DLL destekli) Ürünlerini Lisansla
-
-```powershell
-.\activate.ps1 -w -o
-```
 
 * Windows ve Office ürünleri aynı anda işlenir
 * Zerocid yöntemiyle kalıcı lisans uygulanır
@@ -188,17 +171,13 @@ This advanced PowerShell script is a flexible and modular solution designed to l
 * ✅ Assigns fake, randomly generated IP for KMS products to suppress **Office Genuine Banner** warnings
 * ✅ Asks for user confirmation before modifying licensed products
 * ✅ DLL embedded in script using Base64 + GZIP
-* ✅ Easy to use with the `run.bat` file
+* ✅ Easy to use with the `TSF Activation.bat` file
 
 ---
 
 ## 🚀 Usage Modes
 
 ### 1. Graphical (Out-GridView) Mode – No Parameters
-
-```powershell
-.\activate.ps1
-```
 
 * Lists installed Windows and Office products
 * User selects the products
@@ -210,20 +189,12 @@ This advanced PowerShell script is a flexible and modular solution designed to l
 
 ### 2. License Only Windows Products
 
-```powershell
-.\activate.ps1 -w
-```
-
 * Only the Windows product is processed, no Office licensing
 * Permanent license applied using the Zerocid method
 
 ---
 
 ### 3. License Only Office (DLL-Supported) Products
-
-```powershell
-.\activate.ps1 -o
-```
 
 * Only the Office product is processed, no Windows licensing
 * One product of each type **supported by LibTSforge.dll** is selected, matching those **installed on the system**
@@ -232,10 +203,6 @@ This advanced PowerShell script is a flexible and modular solution designed to l
 ---
 
 ### 4. License Windows + Office (DLL-Supported) Products
-
-```powershell
-.\activate.ps1 -w -o
-```
 
 * Both Windows and Office products are processed simultaneously
 * Permanent license applied using the Zerocid method
