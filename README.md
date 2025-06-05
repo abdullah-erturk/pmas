@@ -53,7 +53,7 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 ### 2. Yalnızca Windows Ürünlerini Lisansla
 
 * Sadece Windows ürünü işlenir, Office lisanslaması yapılmaz
-* Zerocid yöntemiyle kalıcı lisans uygulanır
+* StaticCID yöntemiyle kalıcı lisans uygulanır
 
 ---
 
@@ -62,12 +62,12 @@ Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak iç
 * Sadece Office ürünü işlenir, Windows lisanslaması yapılmaz
 * `LibTSforge.dll` tarafından desteklenen Office ürün türlerinden
   yalnızca bilgisayarda **yüklü olanlara** karşılık gelen **birer tane** seçilir
-* Zerocid yöntemiyle kalıcı lisans uygulanır
+* StaticCID yöntemiyle kalıcı lisans uygulanır
 
 ### 4. Windows + Office (DLL destekli) Ürünlerini Lisansla
 
 * Windows ve Office ürünleri aynı anda işlenir
-* Zerocid yöntemiyle kalıcı lisans uygulanır
+* StaticCID yöntemiyle kalıcı lisans uygulanır
 ---
 
 ## ⚙️ Teknik Detaylar
@@ -190,7 +190,7 @@ This advanced PowerShell script is a flexible and modular solution designed to l
 ### 2. License Only Windows Products
 
 * Only the Windows product is processed, no Office licensing
-* Permanent license applied using the Zerocid method
+* Permanent license applied using the StaticCID method
 
 ---
 
@@ -198,14 +198,14 @@ This advanced PowerShell script is a flexible and modular solution designed to l
 
 * Only the Office product is processed, no Windows licensing
 * One product of each type **supported by LibTSforge.dll** is selected, matching those **installed on the system**
-* Permanent license applied using the Zerocid method
+* Permanent license applied using the StaticCID method
 
 ---
 
 ### 4. License Windows + Office (DLL-Supported) Products
 
 * Both Windows and Office products are processed simultaneously
-* Permanent license applied using the Zerocid method
+* Permanent license applied using the StaticCID method
 
 ---
 
