@@ -8,7 +8,7 @@
 
 <details>
 
-  ![sample](https://github.com/abdullah-erturk/tsf_activation/blob/main/TR/aktivasyon_%C3%B6nizleme.jpg)
+  ![sample](https://raw.githubusercontent.com/abdullah-erturk/tsf_activation/refs/heads/main/TR/aktivasyon_%C3%B6nizleme.jpg)
   
 ## Teşekkür
 
@@ -145,7 +145,7 @@ Her türlü öneri ve geri bildirim için lütfen GitHub üzerinden katkıda bul
 
 <details>
 
-![sample](https://github.com/abdullah-erturk/tsf_activation/blob/main/ENG/activation_preview.jpg)
+![sample](https://raw.githubusercontent.com/abdullah-erturk/tsf_activation/refs/heads/main/ENG/activation_preview.jpg)
 
 ## Thanks
 
