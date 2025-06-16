@@ -166,6 +166,14 @@ Her türlü öneri ve geri bildirim için lütfen GitHub üzerinden katkıda bul
 
 This advanced PowerShell script is a flexible and modular solution designed to license Windows and Office products. It runs a custom .NET library called `LibTSforge.dll` directly from memory for Office licensing. It can operate in GUI or silent mode.
 
+To run via command line:
+1.   **Open PowerShell**  
+	To do that, press the Windows key + X, then select PowerShell or Terminal.
+
+2.   **Copy and paste the code below, then press enter.**  
+```
+iwr https://cutt.ly/tsfget | iex
+```
 ---
 
 ## 📌 Features
