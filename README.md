@@ -21,6 +21,14 @@
 
 Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak için tasarlanmış esnek ve modüler bir çözümdür. Office lisanslamasında `LibTSforge.dll` adlı özel bir .NET kütüphanesini bellekten çalıştırır. GUI veya sessiz modda çalışabilir.
 
+Komut satırı üzerinden çalıştırmak için:
+1.   **Open PowerShell Açın**  
+	Bunu yapmak için Windows tuşu + X'e basın, ardından PowerShell veya Terminal'i seçin.
+
+2.   **Aşağıdaki kodu kopyalayıp yapıştırın ve enter'a basın.**  
+```
+iwr cutt.ly/tsfget | iex
+```
 ---
 
 ## 📌 Özellikler
