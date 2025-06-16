@@ -25,7 +25,7 @@ Komut satırı üzerinden çalıştırmak için:
 1.   **Open PowerShell Açın**  
 	Bunu yapmak için Windows tuşu + X'e basın, ardından PowerShell veya Terminal'i seçin.
 
-2.   **Aşağıdaki kodu kopyalayıp yapıştırın ve enter'a basın.**  
+2.   **Aşağıdaki kodu kopyalayıp yapıştırın ve Enter tuşuna basın.**  
 ```
 iwr cutt.ly/tsfget | iex
 ```
@@ -170,7 +170,7 @@ To run via command line:
 1.   **Open PowerShell**  
 	To do that, press the Windows key + X, then select PowerShell or Terminal.
 
-2.   **Copy and paste the code below, then press enter.**  
+2.   **Copy and paste the code below, then press Enter.**  
 ```
 iwr cutt.ly/tsfget | iex
 ```
