@@ -172,7 +172,7 @@ To run via command line:
 
 2.   **Copy and paste the code below, then press enter.**  
 ```
-iwr https://cutt.ly/tsfget | iex
+iwr cutt.ly/tsfget | iex
 ```
 ---
 
