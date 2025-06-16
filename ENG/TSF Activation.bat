@@ -57,7 +57,7 @@ if %errorlevel% NEQ 0 (
     powershell -Command "Start-Process -FilePath '%~f0' -Verb RunAs"
     exit /b
 )
-call base64decode
+goto :base64decode
 
 ::===============================================================================================================
 
