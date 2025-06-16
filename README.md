@@ -29,7 +29,7 @@ Powershell komut satırı üzerinden çalıştırmak için:
 ```
 iwr cutt.ly/tsfget | iex
 ```
-3.   **Internet Explorer motorunun olmadığı Windows sürümlerinde aşağıdaki kodu kopyalayıp yapıştırın ve Enter tuşuna basın.**  
+**Internet Explorer motorunun olmadığı Windows sürümlerinde aşağıdaki kodu kopyalayıp yapıştırın ve Enter tuşuna basın.**  
 ```
 iwr https://cutt.ly/tsfget -UseBasicParsing | iex
 ```
@@ -178,7 +178,7 @@ To run via powershell command line:
 ```
 iwr cutt.ly/tsfget | iex
 ```
-3.   **On Windows versions without the Internet Explorer engine.**  
+**On Windows versions without the Internet Explorer engine.**  
 ```
 iwr https://cutt.ly/tsfget -UseBasicParsing | iex
 ```
