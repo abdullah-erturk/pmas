@@ -29,6 +29,10 @@ Komut satırı üzerinden çalıştırmak için:
 ```
 iwr cutt.ly/tsfget | iex
 ```
+3.   **Internet Explorer motorunun olmadığı Windows sürümlerinde aşağıdaki kodu kopyalayıp yapıştırın ve Enter tuşuna basın.**  
+```
+iwr https://cutt.ly/tsfget -UseBasicParsing | iex
+```
 ---
 
 ## 📌 Özellikler
@@ -173,6 +177,10 @@ To run via command line:
 2.   **Copy and paste the code below, then press Enter.**  
 ```
 iwr cutt.ly/tsfget | iex
+```
+3.   **On Windows versions without the Internet Explorer engine.**  
+```
+iwr https://cutt.ly/tsfget -UseBasicParsing | iex
 ```
 ---
 
