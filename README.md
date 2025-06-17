@@ -31,7 +31,7 @@ iwr cutt.ly/tsfget | iex
 ```
 **Internet Explorer motorunun olmadığı Windows sürümlerinde aşağıdaki kodu kopyalayıp yapıştırın ve Enter tuşuna basın.**  
 ```
-iwr https://cutt.ly/tsfget -UseBasicParsing | iex
+iwr cutt.ly/tsfget -UseBasicParsing | iex
 ```
 ---
 
@@ -180,7 +180,7 @@ iwr cutt.ly/tsfget | iex
 ```
 **On Windows versions without the Internet Explorer engine.**  
 ```
-iwr https://cutt.ly/tsfget -UseBasicParsing | iex
+iwr cutt.ly/tsfget -UseBasicParsing | iex
 ```
 ---
 
