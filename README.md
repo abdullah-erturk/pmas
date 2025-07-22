@@ -2,7 +2,7 @@
 
 ![sample](https://github.com/abdullah-erturk/tsf_activation/blob/main/preview.jpg)
 
-# Powershell TSF Activation
+# PowerShell TSF & Ohook Activation Script
 
      Türkçe Açıklama
 
@@ -17,7 +17,7 @@
 
 ---
 
-# 🔐 PowerShell TSF Activation Script
+# 🔐 PowerShell TSF & Ohook Activation Script v4
 
 Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak için tasarlanmış esnek ve modüler bir çözümdür. Office lisanslamasında `LibTSforge.dll` adlı özel bir .NET kütüphanesini bellekten çalıştırır. GUI veya sessiz modda çalışabilir.
 
@@ -80,6 +80,12 @@ iwr cutt.ly/tsfget -UseBasicParsing | iex
 
 * Windows ve Office ürünleri aynı anda işlenir
 * StaticCID yöntemiyle kalıcı lisans uygulanır
+
+---
+
+### 5. Ohook Activation
+* Ohook yöntemi açık kaynak bir dll dosyasının manipülasyonu ile Office ürünlerinin bir abonelik yöntemiyle etkinleştirilmesini sağlar.
+
 ---
 
 ## ⚙️ Teknik Detaylar
