@@ -27,11 +27,11 @@ Powershell komut satırı üzerinden çalıştırmak için:
 
 2.   **Aşağıdaki kodu kopyalayıp yapıştırın ve Enter tuşuna basın.**  
 ```
-iwr cutt.ly/tsfget | iex
+iwr cutt.ly/tsf-ohook | iex
 ```
 **Internet Explorer motorunun olmadığı Windows sürümlerinde aşağıdaki kodu kopyalayıp yapıştırın ve Enter tuşuna basın.**  
 ```
-iwr cutt.ly/tsfget -UseBasicParsing | iex
+iwr cutt.ly/tsf-ohook -UseBasicParsing | iex
 ```
 ---
 
@@ -182,11 +182,11 @@ To run via powershell command line:
 
 2.   **Copy and paste the code below, then press Enter.**  
 ```
-iwr cutt.ly/tsfget | iex
+iwr cutt.ly/tsf-ohook | iex
 ```
 **On Windows versions without the Internet Explorer engine.**  
 ```
-iwr cutt.ly/tsfget -UseBasicParsing | iex
+iwr cutt.ly/tsf-ohook -UseBasicParsing | iex
 ```
 ---
 
