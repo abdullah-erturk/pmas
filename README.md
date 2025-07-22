@@ -161,7 +161,7 @@ Her türlü öneri ve geri bildirim için lütfen GitHub üzerinden katkıda bul
 
      English Explanation
 
-<details>
+<details> 
 
 ![sample](https://raw.githubusercontent.com/abdullah-erturk/tsf_activation/refs/heads/main/ENG/activation_preview.jpg)
 
