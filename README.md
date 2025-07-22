@@ -83,7 +83,7 @@ iwr cutt.ly/tsfget -UseBasicParsing | iex
 
 ---
 
-### 5. Ohook Activation
+### 5. Ohook Aktivasyon
 * Ohook yöntemi açık kaynak bir dll dosyasının manipülasyonu ile Office ürünlerinin bir abonelik yöntemiyle etkinleştirilmesini sağlar.
 
 ---
@@ -236,6 +236,11 @@ iwr cutt.ly/tsfget -UseBasicParsing | iex
 
 * Both Windows and Office products are processed simultaneously
 * Permanent license applied using the StaticCID method
+
+---
+
+### 5. Ohook Activation
+* The Ohook method enables activation of Office products via a subscription method by manipulating an open source DLL file.
 
 ---
 
