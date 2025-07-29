@@ -21,11 +21,7 @@ Powershell komut satırı üzerinden çalıştırmak için:
 
 2.   **Aşağıdaki kodu kopyalayıp yapıştırın ve Enter tuşuna basın.**  
 ```
-iwr tinyurl.com/getpmas | iex
-```
-**Internet Explorer motorunun olmadığı Windows sürümlerinde aşağıdaki kodu kopyalayıp yapıştırın ve Enter tuşuna basın.**  
-```
-iwr tinyurl.com/getpmas -UseBasicParsing | iex
+irm tinyurl.com/getpmas | iex
 ```
 ---
 
@@ -146,11 +142,7 @@ To run via powershell command line:
 
 2.   **Copy and paste the code below, then press Enter.**  
 ```
-iwr tinyurl.com/getpmas | iex
-```
-**On Windows versions without the Internet Explorer engine.**  
-```
-iwr tinyurl.com/getpmas -UseBasicParsing | iex
+irm tinyurl.com/getpmas | iex
 ```
 ---
 
