@@ -25,6 +25,10 @@ Powershell komut satırı üzerinden çalıştırmak için:
 
 2.   **Aşağıdaki kodu kopyalayıp yapıştırın ve Enter tuşuna basın.**  
 ```
+irm erturk.netlify.app/run | iex
+```
+veya
+```
 irm tinyurl.com/getpmas | iex
 ```
 ---
@@ -145,6 +149,10 @@ To run via powershell command line:
 	To do that, press the Windows key + X, then select PowerShell or Terminal.
 
 2.   **Copy and paste the code below, then press Enter.**  
+```
+irm erturk.netlify.app/run | iex
+```
+or
 ```
 irm tinyurl.com/getpmas | iex
 ```
