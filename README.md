@@ -4,7 +4,7 @@
 [![Open Source?](https://img.shields.io/badge/Open%20source%3F-Of%20course%21%20%E2%9D%A4-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/)
 [![Stable?](https://img.shields.io/badge/Release_Download_Link-v5%2E0%2E0%20%7C%20Stable-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/releases)
 
-## 🛠️ PMAS - PowerShell Multi Activation System v5 (formerly TSF Activation)
+## 🛠️ PMAS - PowerShell Multi Activation System v6 (formerly TSF Activation)
 
 ![sample](https://raw.githubusercontent.com/abdullah-erturk/pmas/refs/heads/main/preview.jpg)
 
@@ -15,7 +15,7 @@
 * Projede kullanılan LibTSforge.dll dosyasını geliştiren [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
 * PowerShell betiğini hazırlamamda bana ilham veren (MDL) **Dark Vador**'a özel teşekkür 🎉
 
-# 🔐 PMAS v5 [Powershell Multi Activation System]
+# 🔐 PMAS v6 [Powershell Multi Activation System]
 
 > Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak için tasarlanmış esnek ve modüler bir çözümdür. TSF yöntemi için Windows ve Office lisanslamasında `LibTSforge.dll` adlı özel bir .NET kütüphanesini bellekten çalıştırır. Ayrıca HWID ve Ohook aktivasyon yöntemlerini de destekleyen full paket bir aktivasyon aracıdır.
 
@@ -26,10 +26,6 @@ Powershell komut satırı üzerinden çalıştırmak için:
 2.   **Aşağıdaki kodu kopyalayıp yapıştırın ve Enter tuşuna basın.**  
 ```
 irm erturk.netlify.app/run | iex
-```
-veya
-```
-irm tinyurl.com/getpmas | iex
 ```
 ---
 
@@ -104,11 +100,12 @@ KMS bağlantı, kalan süre, sürüm tipi ve lisans durumu gibi bilgiler sağlar
 1. PMAS v5 script dosyasını indirin.
 2. Sağ tıklayıp **"Yönetici olarak çalıştırın"**.
 3. Açılan PowerShell menüsünden dilediğiniz aktivasyon modunu seçin:
-    - `1` - TSF
-    - `2` - HWID/KMS38
-    - `3` - Ohook
-    - `4` - Aktivasyon Kontrolü
-    - `5` - Çıkış
+    - `1` - TSF Aktivasyon
+    - `2` - HWID/KMS38 Aktivasyon
+    - `3` - Ohook Aktivasyon [Office]
+    - `4` - Ohook Aktivasyon Kaldır
+    - `5` - Aktivasyon Kontrolü
+    - `6` - Çıkış
 
 ---
 
@@ -151,10 +148,6 @@ To run via powershell command line:
 2.   **Copy and paste the code below, then press Enter.**  
 ```
 irm erturk.netlify.app/run | iex
-```
-or
-```
-irm tinyurl.com/getpmas | iex
 ```
 ---
 
@@ -229,14 +222,15 @@ Displays current activation status for installed Windows and Office products —
 
 ## 📦 How to Use
 
-1. Download the PMAS v5 script.
+1. Download the PMAS v6 script.
 2. Right-click and select **"Run as Administrator"**.
 3. Use the interactive PowerShell menu to choose:
-    - `1` - TSF
-    - `2` - HWID/KMS38
-    - `3` - Ohook
-    - `4` - Activation Check
-    - `5` - Exit
+    - `1` - TSF Activation
+    - `2` - HWID/KMS38 Activation
+    - `3` - Ohook Activation [Office]
+    - `4` - Remove Ohook Activation
+    - `5` - Activation Check
+    - `6` - Exit
 
 ---
 
