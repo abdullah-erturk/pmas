@@ -97,7 +97,7 @@ KMS bağlantı, kalan süre, sürüm tipi ve lisans durumu gibi bilgiler sağlar
 
 ## 📦 Kurulum ve Kullanım
 
-1. PMAS v5 script dosyasını indirin.
+1. PMAS script dosyasını indirin.
 2. Sağ tıklayıp **"Yönetici olarak çalıştırın"**.
 3. Açılan PowerShell menüsünden dilediğiniz aktivasyon modunu seçin:
     - `1` - TSF Aktivasyon
@@ -222,7 +222,7 @@ Displays current activation status for installed Windows and Office products —
 
 ## 📦 How to Use
 
-1. Download the PMAS v6 script.
+1. Download the PMAS script.
 2. Right-click and select **"Run as Administrator"**.
 3. Use the interactive PowerShell menu to choose:
     - `1` - TSF Activation
