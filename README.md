@@ -27,6 +27,12 @@ Powershell komut satırı üzerinden çalıştırmak için:
 ```
 irm erturk.netlify.app/run | iex
 ```
+
+Kullanımına dair ipuçları:
+
+```
+erturk.netlify.app/run
+```
 ---
 
 ## 🚀 Özellikler
@@ -148,6 +154,10 @@ To run via powershell command line:
 2.   **Copy and paste the code below, then press Enter.**  
 ```
 irm erturk.netlify.app/run | iex
+```
+Tips on usage:
+```
+erturk.netlify.app/run
 ```
 ---
 
