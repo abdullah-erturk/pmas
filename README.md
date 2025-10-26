@@ -15,7 +15,7 @@
 * Projede kullanılan LibTSforge.dll dosyasını geliştiren [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
 * PowerShell betiğini hazırlamamda bana ilham veren (MDL) **Dark Vador**'a özel teşekkür 🎉
 
-# 🔐 PMAS v6 [Powershell Multi Activation System]
+# 🔐 PMAS v7 [Powershell Multi Activation System]
 
 > Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak için tasarlanmış esnek ve modüler bir çözümdür. TSF yöntemi için Windows ve Office lisanslamasında `LibTSforge.dll` adlı özel bir .NET kütüphanesini bellekten çalıştırır. Ayrıca HWID ve Ohook aktivasyon yöntemlerini de destekleyen full paket bir aktivasyon aracıdır.
 
@@ -255,7 +255,6 @@ This script is for **educational and personal use only**. Please ensure complian
 Suggestions, improvements, and pull requests are welcome via GitHub.
 
 ---
-
 ## 📜 License
 
 This script is for personal and educational use only. Activation of Microsoft products must be done in accordance with applicable license terms.
