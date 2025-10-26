@@ -4,9 +4,9 @@
 [![Open Source?](https://img.shields.io/badge/Open%20source%3F-Of%20course%21%20%E2%9D%A4-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/)
 [![Stable?](https://img.shields.io/badge/Release_Download_Link-v5%2E0%2E0%20%7C%20Stable-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/releases)
 
-## 🛠️ PMAS - PowerShell Multi Activation System v6 (formerly TSF Activation)
+## 🛠️ PMAS - PowerShell Multi Activation System v7 (formerly TSF Activation)
 
-![sample](https://raw.githubusercontent.com/abdullah-erturk/pmas/refs/heads/main/preview.jpg)
+![sample](https://github.com/abdullah-erturk/pmas/blob/main/preview.JPG)
 
 <details>
 <summary><strong>Türkçe Tanıtım</strong></summary>
