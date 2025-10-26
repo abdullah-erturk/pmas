@@ -6,7 +6,7 @@
 
 ## 🛠️ PMAS - PowerShell Multi Activation System v7 (formerly TSF Activation)
 
-![sample](https://github.com/abdullah-erturk/pmas/blob/main/preview.JPG)
+![sample](https://github.com/abdullah-erturk/pmas/blob/main/preview.jpg)
 
 <details>
 <summary><strong>Türkçe Tanıtım</strong></summary>
