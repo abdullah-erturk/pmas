@@ -3,10 +3,10 @@
 	
 	:: Dark Vador (MDL) & Windows_Addict (MASSGRAVE)
 	
-	:: Tm ”vgler bu arkadaŸlara :)ÿ
-	:: All praise to these friends :)ÿ
+	:: TÂm â€vgÂler bu arkadaÅ¸lara :)Ã¿
+	:: All praise to these friends :)Ã¿
 
-	:: PMAS_v7.bat --> Abdullah ERTšRK (https://github.com/abdullah-erturk/pmas)
+	:: PMAS_v7.bat --> Abdullah ERTÅ¡RK (https://github.com/abdullah-erturk/pmas)
 
 	:: https://erturk.netlify.app
 
@@ -20,43 +20,43 @@ pushd %temp%
 
 ::===============================================================================================================
 
-:: Dil Tespiti ve Metin Ayarlar / Language Detection and String Settings
+:: Dil Tespiti ve Metin AyarlarÂ / Language Detection and String Settings
 set "LANG="
 :: PowerShell kullanarak UI dilini al / Get UI language using PowerShell / Get UI language using PowerShell
 for /f %%i in ('powershell -NoProfile -Command "(Get-UICulture).Name"') do set "LANG=%%i"
 
 if "%LANG%"=="tr-TR" (
-    :: --- TšRK€E ---
-    set "s_winVerErr=Bu script sadece Windows 10 ve st iŸletim sistemlerinde ‡alŸtrlabilir."
-    set "s_autoClose=5 saniye icinde otomatik kapanacaktr..."
-    set "s_64bitErr=Bu script sadece 64 bit iŸletim sistemlerinde ‡alŸtrlabilir."
-    set "s_adminRestart=Y”netici yetkileriyle yeniden baŸlatlyor..."
-    set "s_netWarnTitle=D˜KKAT"
-    set "s_netWarnMsg1=˜nternet ba§lantnz yok."
-    set "s_netWarnMsg2=Ohook ve KMS38 hari‡ di§er y”ntemler i‡in internet ba§lants gereklidir."
-    set "s_menuPrompt=Se‡iminiz [1-2-3-4-5-6-7-8] :"
-    set "s_menuoemPrompt=Se‡iminiz [1-2]:"
-    set "s_tsfSelected=Se‡ilen y”ntem: TSF Aktivasyon [Windows 10 - 11 / Server]"
-    set "s_hwidSelected=Se‡ilen y”ntem: HWID / KMS38 Aktivasyon [Windows 10 - 11 / Server]"
-    set "s_ohookSelected=Se‡ilen y”ntem: Ohook Aktivasyon [Office]"
-    set "s_ohookRemoveSelected=Se‡ilen y”ntem: Ohook Aktivasyon Kaldr"
-    set "s_checkMsg=Aktivasyon bilgisi kontrol ediliyor, ltfen bekleyin..."
-    set "s_exiting=€kŸ yaplyor..."
-    set "s_decodeSuccess=base64 Decode iŸlemi baŸarl."
+    :: --- TÅ¡RKâ‚¬E ---
+    set "s_winVerErr=Bu script sadece Windows 10 ve ÂstÂ iÅ¸letim sistemlerinde â€¡alÂÅ¸tÂrÂlabilir."
+    set "s_autoClose=5 saniye icinde otomatik kapanacaktÂr..."
+    set "s_64bitErr=Bu script sadece 64 bit iÅ¸letim sistemlerinde â€¡alÂÅ¸tÂrÂlabilir."
+    set "s_adminRestart=Yâ€netici yetkileriyle yeniden baÅ¸latÂlÂyor..."
+    set "s_netWarnTitle=DËœKKAT"
+    set "s_netWarnMsg1=Ëœnternet baÂ§lantÂnÂz yok."
+    set "s_netWarnMsg2=Ohook ve KMS38 hariâ€¡ diÂ§er yâ€ntemler iâ€¡in internet baÂ§lantÂsÂ gereklidir."
+    set "s_menuPrompt=Seâ€¡iminiz [1-2-3-4-5-6-7-8] :"
+    set "s_menuoemPrompt=Seâ€¡iminiz [1-2]:"
+    set "s_tsfSelected=Seâ€¡ilen yâ€ntem: TSF Aktivasyon [Windows 10 - 11 / Server]"
+    set "s_hwidSelected=Seâ€¡ilen yâ€ntem: HWID / KMS38 Aktivasyon [Windows 10 - 11 / Server]"
+    set "s_ohookSelected=Seâ€¡ilen yâ€ntem: Ohook Aktivasyon [Office]"
+    set "s_ohookRemoveSelected=Seâ€¡ilen yâ€ntem: Ohook Aktivasyon KaldÂr"
+    set "s_checkMsg=Aktivasyon bilgisi kontrol ediliyor, lÂtfen bekleyin..."
+    set "s_exiting=â‚¬ÂkÂÅ¸ yapÂlÂyor..."
+    set "s_decodeSuccess=base64 Decode iÅ¸lemi baÅ¸arÂlÂ."
     set "s_decodePath=Dosya Yolu:"
-    set "s_decodeFail=Decode iŸlemi baŸarsz oldu."
-    set "s_decodeCorrupt=base64 de§eri bozulmuŸ olabilir."
-    set "s_pressKey=Ana men i‡in herhangi bir tuŸa basn..."
-    set "s_pressKeyExit=€kŸ i‡in herhangi bir tuŸa basn..."
-    set "s_oemPrompt=$OEM$ klas”r %systemdrive%\ dizininde zaten mevcut"
-    set "s_tsfoemfolder=$OEM$ klas”r %systemdrive%\ dizinine ‡karlmŸtr. $OEM$ TSF aktivasyon y”ntemi kalcdr. Windows kurulumu esnasnda internet baglants gereklidir."
-    set "s_hwidoemfolder=$OEM$ klas”r %systemdrive%\ dizinine ‡karlmŸtr. $OEM$ HWID/KMS38 & Ohook aktivasyon y”ntemi kalcdr. Windows kurulumu esnasnda HWID y”ntemi i‡in internet baglants gereklidir."
-    set "s_hwidohookSelected=Se‡ilen y”ntem: HWID / KMS38 ^& Ohook Aktivasyon"
+    set "s_decodeFail=Decode iÅ¸lemi baÅ¸arÂsÂz oldu."
+    set "s_decodeCorrupt=base64 deÂ§eri bozulmuÅ¸ olabilir."
+    set "s_pressKey=Ana menÂ iâ€¡in herhangi bir tuÅ¸a basÂn..."
+    set "s_pressKeyExit=â‚¬ÂkÂÅ¸ iâ€¡in herhangi bir tuÅ¸a basÂn..."
+    set "s_oemPrompt=$OEM$ klasâ€rÂ %systemdrive%\ dizininde zaten mevcut"
+    set "s_tsfoemfolder=$OEM$ klasâ€rÂ %systemdrive%\ dizinine â€¡ÂkarÂlmÂÅ¸tÂr. $OEM$ TSF aktivasyon yâ€ntemi kalÂcÂdÂr. Windows kurulumu esnasÂnda internet baglantÂsÂ gereklidir."
+    set "s_hwidoemfolder=$OEM$ klasâ€rÂ %systemdrive%\ dizinine â€¡ÂkarÂlmÂÅ¸tÂr. $OEM$ HWID/KMS38 & Ohook aktivasyon yâ€ntemi kalÂcÂdÂr. Windows kurulumu esnasÂnda HWID yâ€ntemi iâ€¡in internet baglantÂsÂ gereklidir."
+    set "s_hwidohookSelected=Seâ€¡ilen yâ€ntem: HWID / KMS38 ^& Ohook Aktivasyon"
     set "s_hwidohooktitle=HWID / KMS38 ^& Ohook Aktivasyon"
-    set "s_SetupComplete=HATA: SetupComplete.cmd oluŸturulamad."
-    set "s_method=”nerilen y”ntem"
+    set "s_SetupComplete=HATA: SetupComplete.cmd oluÅ¸turulamadÂ."
+    set "s_method=â€nerilen yâ€ntem"
 ) else (
-    :: --- ˜NG˜L˜ZCE / ENGLISH ---
+    :: --- ËœNGËœLËœZCE / ENGLISH ---
     set "s_winVerErr=This script can only be run on Windows 10 and above."
     set "s_autoClose=It will close automatically in 5 seconds..."
     set "s_64bitErr=This script can only be run on 64-bit operating systems."
@@ -88,7 +88,7 @@ if "%LANG%"=="tr-TR" (
 )
 ::===============================================================================================================
 
-:: Dosya Temizli§i / File Cleanup
+:: Dosya TemizliÂ§i / File Cleanup
 set "tsfps1file=tsf.ps1"
 if exist %tsfps1file% del /f /q %tsfps1file% >nul
 
@@ -107,7 +107,7 @@ if exist %centerfile% del /f /q %centerfile% >nul
 set "checkfile=check.ps1"
 if exist %checkfile% del /f /q %checkfile% >nul
 
-set Auto=0		ÿÿ
+set Auto=0		Ã¿Ã¿
 if /I "%~1"=="-tsf" set Auto=1
 if /I "%~1"=="-ho" set Auto=1
 
@@ -115,65 +115,65 @@ if /I "%~1"=="-ho" goto :hwidohook
 if /I "%~1"=="-tsf" goto :tsf
 ::===============================================================================================================
 
-:: Yalnzca Windows 10 veya zeri srm / Only Windows 10 or later
+:: YalnÂzca Windows 10 veya Âzeri sÂrÂm / Only Windows 10 or later
 for /f %%i in ('powershell -NoProfile -Command "(Get-CimInstance Win32_OperatingSystem).Version"') do set "winver=%%i"
 
 for /f "tokens=1,2 delims=." %%a in ("%winver%") do (
-ÿ ÿ set "major=%%a"
-ÿ ÿ set "minor=%%b"
+Ã¿ Ã¿ set "major=%%a"
+Ã¿ Ã¿ set "minor=%%b"
 )
 
 if %major% LSS 10 (
-ÿ ÿ echo.
-ÿ ÿ echoÿ ÿ ÿ %s_winVerErr%
-ÿ ÿ echo.
-ÿ ÿ echoÿ ÿ ÿ %s_autoClose%
-ÿ ÿ timeout /t 5 > nul
-ÿ ÿ exit /b
+Ã¿ Ã¿ echo.
+Ã¿ Ã¿ echoÃ¿ Ã¿ Ã¿ %s_winVerErr%
+Ã¿ Ã¿ echo.
+Ã¿ Ã¿ echoÃ¿ Ã¿ Ã¿ %s_autoClose%
+Ã¿ Ã¿ timeout /t 5 > nul
+Ã¿ Ã¿ exit /b
 )
 
 ::===============================================================================================================
 
-:: ˜Ÿletim sistemi 64 bit kontrol / Operating system 64 bit control
+:: ËœÅ¸letim sistemi 64 bit kontrolÂ / Operating system 64 bit control
 if not "%PROCESSOR_ARCHITECTURE%"=="AMD64" (
-ÿ ÿ echo.
-ÿ ÿ echoÿ ÿ ÿ %s_64bitErr%
-ÿ ÿ echo.
-ÿ ÿ echoÿ ÿ ÿ %s_autoClose%
-ÿ ÿ timeout /t 5 > nul
-ÿ ÿ exit /b
+Ã¿ Ã¿ echo.
+Ã¿ Ã¿ echoÃ¿ Ã¿ Ã¿ %s_64bitErr%
+Ã¿ Ã¿ echo.
+Ã¿ Ã¿ echoÃ¿ Ã¿ Ã¿ %s_autoClose%
+Ã¿ Ã¿ timeout /t 5 > nul
+Ã¿ Ã¿ exit /b
 )
 
 ::===============================================================================================================
 
-:: Y”netici olarak ‡alŸmyorsa kendini y”netici olarak yeniden baŸlat / Restart yourself as administrator if not running as administrator
+:: Yâ€netici olarak â€¡alÂÅ¸mÂyorsa kendini yâ€netici olarak yeniden baÅ¸lat / Restart yourself as administrator if not running as administrator
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 if %errorlevel% NEQ 0 (
-ÿ ÿ echo.
-	echoÿ ÿ ÿ %s_adminRestart%
-ÿ ÿ powershell -Command "Start-Process -FilePath '%~f0' -Verb RunAs"
-ÿ ÿ exit /b
+Ã¿ Ã¿ echo.
+	echoÃ¿ Ã¿ Ã¿ %s_adminRestart%
+Ã¿ Ã¿ powershell -Command "Start-Process -FilePath '%~f0' -Verb RunAs"
+Ã¿ Ã¿ exit /b
 )
 
 powershell -NoProfile -Command ^
-ÿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_center-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_center-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%centerfile%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
+Ã¿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_center-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_center-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%centerfile%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
 Powershell.exe -executionpolicy remotesigned -File %centerfile% -TitleContains "PMAS*"
 
 powershell -NoProfile -Command ^
-ÿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_disableX-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_disableX-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%disableXfile%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
+Ã¿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_disableX-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_disableX-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%disableXfile%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
 Powershell.exe -executionpolicy remotesigned -File %disableXfile%
 
 ::===============================================================================================================
 
-:: ˜nternet Kontrol / Internet Check
+:: Ëœnternet Kontrol / Internet Check
 >nul 2>&1 ping -n 2 8.8.8.8
 if errorlevel 1 (
-ÿ ÿ echo.
-ÿ ÿ echoÿ ÿ ÿ %s_netWarnTitle%
-ÿ ÿ echo.
-ÿ ÿ echoÿ ÿ ÿ %s_netWarnMsg1%
-ÿ ÿ echo.
-ÿ ÿ echoÿ ÿ ÿ %s_netWarnMsg2%
+Ã¿ Ã¿ echo.
+Ã¿ Ã¿ echoÃ¿ Ã¿ Ã¿ %s_netWarnTitle%
+Ã¿ Ã¿ echo.
+Ã¿ Ã¿ echoÃ¿ Ã¿ Ã¿ %s_netWarnMsg1%
+Ã¿ Ã¿ echo.
+Ã¿ Ã¿ echoÃ¿ Ã¿ Ã¿ %s_netWarnMsg2%
 	timeout /t 5 >nul
 )
 
@@ -181,9 +181,9 @@ goto :menu
 
 ::===============================================================================================================
 
-:: Ana men / Main menu
+:: Ana menÂ / Main menu
 :menu
-Powershell.exe -executionpolicy remotesigned -File %centerfile% -TitleContains "Administrator:ÿ PMAS*"
+Powershell.exe -executionpolicy remotesigned -File %centerfile% -TitleContains "Administrator:Ã¿ PMAS*"
 mode con cols=92 lines=48
 cls
 echo.
@@ -200,7 +200,7 @@ set yy=%date:~-4%
 set mm=%date:~-7,2%
 set dd=%date:~-10,2%
 for /f "tokens=1-2 delims=/:" %%a in ('time /t') do (set mytime=%%a:%%b)
-echoÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ	ÿ ÿ ÿ%dd%.%mm%.%yy% ^- %mytime%
+echoÃ¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿ Ã¿	Ã¿ Ã¿ Ã¿%dd%.%mm%.%yy% ^- %mytime%
 
 if "%LANG%"=="tr-TR" (
 goto TR
@@ -214,12 +214,12 @@ Write-Host (' ' * 12) -NoNewline; Write-Host 'PMAS [Powershell Multi Activation 
 Write-Host ''; ^
 Write-Host ('=' * 92) -ForegroundColor DarkYellow; ^
 Write-Host (' ' * 12) -NoNewline; Write-Host 'OS ADI : %NameOS% %xOS%' -ForegroundColor Yellow; ^
-Write-Host (' ' * 10) -NoNewline; Write-Host 'VERS˜YON : %Version%' -ForegroundColor Yellow; ^
-Write-Host (' ' * 4) -NoNewline; Write-Host '˜žLEMCI M˜MAR˜ : %PROCESSOR_ARCHITECTURE%' -ForegroundColor Yellow; ^
+Write-Host (' ' * 10) -NoNewline; Write-Host 'VERSËœYON : %Version%' -ForegroundColor Yellow; ^
+Write-Host (' ' * 4) -NoNewline; Write-Host 'ËœÅ¾LEMCI MËœMARËœ : %PROCESSOR_ARCHITECTURE%' -ForegroundColor Yellow; ^
 Write-Host (' ' * 12) -NoNewline; Write-Host 'PC ADI : %computername%' -ForegroundColor Yellow; ^
 Write-Host ('=' * 92) -ForegroundColor DarkYellow; ^
 Write-Host ''; ^
-Write-Host (' ' * 4) -NoNewline; Write-Host 'DESTEKLENEN MICROSOFT šRšNLER˜' -ForegroundColor Yellow; ^
+Write-Host (' ' * 4) -NoNewline; Write-Host 'DESTEKLENEN MICROSOFT Å¡RÅ¡NLERËœ' -ForegroundColor Yellow; ^
 Write-Host ''; ^
 Write-Host ' Windows 10 / 11'; ^
 Write-Host ' Windows Server 2016 / 2019 / 2022 / 2025'; ^
@@ -228,15 +228,15 @@ Write-Host ''; ^
 Write-Host ('=' * 92) -ForegroundColor White; ^
 Write-Host ''; ^
 Write-Host (' ' * 10) -NoNewline; Write-Host '1. TSF Aktivasyon [Windows 10 - 11 / Server]' -ForegroundColor DarkCyan; Write-Host ''; ^
-Write-Host (' ' * 10) -NoNewline; Write-Host '2. HWID / KMS38 Aktivasyon [Windows 10 - 11 / Server] ' -ForegroundColor Red -NoNewline; Write-Host '(”nerilen y”ntem)' -ForegroundColor White; Write-Host ''; ^
-Write-Host (' ' * 10) -NoNewline; Write-Host '2. Ohook Aktivasyon [Office] ' -ForegroundColor DarkYellow -NoNewline; Write-Host '(”nerilen y”ntem)' -ForegroundColor White; Write-Host ''; ^
-Write-Host (' ' * 10) -NoNewline; Write-Host '4. HWID/KMS38 + Ohook Aktivasyon ' -ForegroundColor Gray -NoNewline; Write-Host '(”nerilen y”ntem)' -ForegroundColor White; Write-Host ''; ^
+Write-Host (' ' * 10) -NoNewline; Write-Host '2. HWID / KMS38 Aktivasyon [Windows 10 - 11 / Server] ' -ForegroundColor Red -NoNewline; Write-Host '(â€nerilen yâ€ntem)' -ForegroundColor White; Write-Host ''; ^
+Write-Host (' ' * 10) -NoNewline; Write-Host '3. Ohook Aktivasyon [Office] ' -ForegroundColor DarkYellow -NoNewline; Write-Host '(â€nerilen yâ€ntem)' -ForegroundColor White; Write-Host ''; ^
+Write-Host (' ' * 10) -NoNewline; Write-Host '4. HWID/KMS38 + Ohook Aktivasyon ' -ForegroundColor Gray -NoNewline; Write-Host '(â€nerilen yâ€ntem)' -ForegroundColor White; Write-Host ''; ^
 Write-Host ('=' * 92) -ForegroundColor White; ^
 Write-Host ''; ^
-Write-Host (' ' * 10) -NoNewline; Write-Host '5. Ohook Aktivasyon Kaldr' -ForegroundColor Green; Write-Host ''; ^
+Write-Host (' ' * 10) -NoNewline; Write-Host '5. Ohook Aktivasyon KaldÂr' -ForegroundColor Green; Write-Host ''; ^
 Write-Host (' ' * 10) -NoNewline; Write-Host '6. Aktivasyon Kontrol' -ForegroundColor Blue; Write-Host ''; ^
-Write-Host (' ' * 10) -NoNewline; Write-Host '7. TSF veya HWID/KMS38 + Ohook Aktivasyon i‡in $OEM$ aktivasyon klas”r oluŸtur.' -ForegroundColor Yellow; Write-Host ''; ^
-Write-Host (' ' * 10) -NoNewline; Write-Host '8. €IKIž'  -ForegroundColor Magenta; Write-Host ''; ^
+Write-Host (' ' * 10) -NoNewline; Write-Host '7. TSF veya HWID/KMS38 + Ohook Aktivasyon iâ€¡in $OEM$ aktivasyon klasâ€rÂ oluÅ¸tur.' -ForegroundColor Yellow; Write-Host ''; ^
+Write-Host (' ' * 10) -NoNewline; Write-Host '8. â‚¬IKIÅ¾'  -ForegroundColor Magenta; Write-Host ''; ^
 Write-Host ('=' * 92) -ForegroundColor White"
 goto select
 
@@ -290,7 +290,7 @@ if errorlevel 1 goto :base64decodetsf
 :tsf
 if "%Auto%"=="1" (
 powershell -NoProfile -Command ^
-ÿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_TSF-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_TSF-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%tsfps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
+Ã¿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_TSF-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_TSF-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%tsfps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
 PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File "%tsfps1file%" -w -o
 exit
 ) else (
@@ -337,10 +337,10 @@ goto menu
 
 :hwidohook
 powershell -NoProfile -Command ^
-ÿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_hwid-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_hwid-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%hwidps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
+Ã¿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_hwid-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_hwid-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%hwidps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
 
 powershell -NoProfile -Command ^
-ÿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_ohook-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_ohook-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%ohookps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
+Ã¿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_ohook-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_ohook-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%ohookps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
 
 if "%Auto%"=="1" (
 echo.
@@ -384,7 +384,7 @@ goto menu
 
 :check
 powershell -NoProfile -Command ^
-ÿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_check-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_check-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%checkfile%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
+Ã¿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_check-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_check-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%checkfile%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
 echo.
 echo		%s_checkMsg%
 PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File "%checkfile%"
@@ -420,12 +420,12 @@ if exist %systemdrive%\$OEM$ (
 	(
     echo @echo off
 	echo cd /d %%~dp0 ^>nul
-ÿ ÿ echo fltmc ^>nul ^|^| exit /b
+Ã¿ Ã¿ echo fltmc ^>nul ^|^| exit /b
 	echo start /wait pmas.bat -tsf
     echo timeout /t 2 ^>nul
-ÿ ÿ echo cd \
-ÿ ÿ echo ^(goto^) 2^>nul ^& ^(if /I "%%~dp0"=="%%SystemRoot%%\Setup\Scripts\" rd /s /q "%%~dp0"^)
-ÿ ÿ )>"!targetDir!\SetupComplete.cmd"
+Ã¿ Ã¿ echo cd \
+Ã¿ Ã¿ echo ^(goto^) 2^>nul ^& ^(if /I "%%~dp0"=="%%SystemRoot%%\Setup\Scripts\" rd /s /q "%%~dp0"^)
+Ã¿ Ã¿ )>"!targetDir!\SetupComplete.cmd"
 
     if exist "!targetDir!\SetupComplete.cmd" (
         powershell -Command "$wshell = New-Object -ComObject wscript.shell; $wshell.Popup('%s_tsfoemfolder%', 0, '.:: PMAS | mephistooo2 | TNCTR ::.', 64+4096)"
@@ -457,12 +457,12 @@ if exist %systemdrive%\$OEM$ (
 	(
     echo @echo off
 	echo cd /d %%~dp0 ^>nul
-ÿ ÿ echo fltmc ^>nul ^|^| exit /b
+Ã¿ Ã¿ echo fltmc ^>nul ^|^| exit /b
 	echo start /wait pmas.bat -ho
     echo timeout /t 2 ^>nul
-ÿ ÿ echo cd \
-ÿ ÿ echo ^(goto^) 2^>nul ^& ^(if /I "%%~dp0"=="%%SystemRoot%%\Setup\Scripts\" rd /s /q "%%~dp0"^)
-ÿ ÿ )>"!targetDir!\SetupComplete.cmd"
+Ã¿ Ã¿ echo cd \
+Ã¿ Ã¿ echo ^(goto^) 2^>nul ^& ^(if /I "%%~dp0"=="%%SystemRoot%%\Setup\Scripts\" rd /s /q "%%~dp0"^)
+Ã¿ Ã¿ )>"!targetDir!\SetupComplete.cmd"
 
     if exist "!targetDir!\SetupComplete.cmd" (
         powershell -Command "$wshell = New-Object -ComObject wscript.shell; $wshell.Popup('%s_hwidoemfolder%', 0, '.:: PMAS | mephistooo2 | TNCTR ::.', 64+4096)"
@@ -493,19 +493,19 @@ exit
 
 :base64decodetsf
 powershell -NoProfile -Command ^
-ÿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_TSF-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_TSF-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%tsfps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
+Ã¿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_TSF-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_TSF-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%tsfps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
 
 if exist "%tsfps1file%" (
 	echo.
-ÿ ÿ echo		%s_decodeSuccess%
+Ã¿ Ã¿ echo		%s_decodeSuccess%
 	echo.	
 	echo		%s_decodePath% %temp%\%tsfps1file%
 	goto :tsf
 ) else (
 	echo.
-ÿ ÿ echo		%s_decodeFail%
+Ã¿ Ã¿ echo		%s_decodeFail%
 	echo.
-ÿ ÿ echo		%s_decodeCorrupt%
+Ã¿ Ã¿ echo		%s_decodeCorrupt%
 	echo.
 )
 echo		%s_pressKeyExit%
@@ -517,20 +517,20 @@ exit
 
 :base64decodehwid
 powershell -NoProfile -Command ^
-ÿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_hwid-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_hwid-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%hwidps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
+Ã¿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_hwid-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_hwid-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%hwidps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
 
 if exist "%hwidps1file%" (
 	echo.
-ÿ ÿ echo		%s_decodeSuccess%
+Ã¿ Ã¿ echo		%s_decodeSuccess%
 	echo.	
 	echo		%s_decodePath% %temp%\%hwidps1file%
 	timeout 2 >nul
 	goto :hwid
 ) else (
 	echo.
-ÿ ÿ echo		%s_decodeFail%
+Ã¿ Ã¿ echo		%s_decodeFail%
 	echo.
-ÿ ÿ echo		%s_decodeCorrupt%
+Ã¿ Ã¿ echo		%s_decodeCorrupt%
 	echo.
 )
 echo		%s_pressKeyExit%
@@ -542,20 +542,20 @@ exit
 
 :base64decodeohook
 powershell -NoProfile -Command ^
-ÿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_OHOOK-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_OHOOK-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%ohookps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
+Ã¿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_OHOOK-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_OHOOK-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%ohookps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
 
 if exist "%ohookps1file%" (
 	echo.
-ÿ ÿ echo		%s_decodeSuccess%
+Ã¿ Ã¿ echo		%s_decodeSuccess%
 	echo.	
 	echo		%s_decodePath% %temp%\%ohookps1file%
 	timeout 2 >nul
 	goto :ohook
 ) else (
 	echo.
-ÿ ÿ echo		%s_decodeFail%
+Ã¿ Ã¿ echo		%s_decodeFail%
 	echo.
-ÿ ÿ echo		%s_decodeCorrupt%
+Ã¿ Ã¿ echo		%s_decodeCorrupt%
 	echo.
 )
 echo		%s_pressKeyExit%
@@ -567,20 +567,20 @@ exit
 
 :base64decodeohookremove
 powershell -NoProfile -Command ^
-ÿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_OHOOK-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_OHOOK-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%ohookps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
+Ã¿ "try { $copy = $false; $base64 = ''; foreach ($line in Get-Content -Encoding UTF8 '%~f0') { if ($line -eq '-----BEGIN CERTIFICATE_OHOOK-----') { $copy = $true; continue } if ($line -eq '-----END CERTIFICATE_OHOOK-----') { $copy = $false; break } if ($copy -and $line.Trim() -ne '') { $base64 += $line.Trim() } }; [IO.File]::WriteAllBytes('%ohookps1file%', [Convert]::FromBase64String($base64)) } catch {}" 2>$null
 
 if exist "%ohookps1file%" (
 	echo.
-ÿ ÿ echo		%s_decodeSuccess%
+Ã¿ Ã¿ echo		%s_decodeSuccess%
 	echo.	
 	echo		%s_decodePath% %temp%\%ohookps1file%
 	timeout 2 >nul
 	goto :ohookremove
 ) else (
 	echo.
-ÿ ÿ echo		%s_decodeFail%
+Ã¿ Ã¿ echo		%s_decodeFail%
 	echo.
-ÿ ÿ echo		%s_decodeCorrupt%
+Ã¿ Ã¿ echo		%s_decodeCorrupt%
 	echo.
 )
 echo		%s_pressKeyExit%
@@ -590,7 +590,7 @@ exit
 
 ::===============================================================================================================
 
-:: De§iŸtirilmemeli / Don't modify (TSF)
+:: DeÂ§iÅ¸tirilmemeli / Don't modify (TSF)
 
 -----BEGIN CERTIFICATE_TSF-----
 77u/cGFyYW0gKA0KICAgIFtzd2l0Y2hdJHcsDQogICAgW3N3aXRjaF0kbw0KKQ0K
@@ -2379,7 +2379,7 @@ LQ0KDQpNYWlu
 
 ::===============================================================================================================
 
-:: De§iŸtirilmemeli / Don't modify (hwid)
+:: DeÂ§iÅ¸tirilmemeli / Don't modify (hwid)
 
 -----BEGIN CERTIFICATE_hwid-----
 IyAtLS0gRN1MIEFZQVJMQVJJIC8gTEFOR1VBR0UgU0VUVElOR1MgLS0tDQojIN3+
@@ -3167,7 +3167,7 @@ U3RhcnQtU2xlZXAgMg0KfQ0KDQpSdW4tSFdJRA==
 
 ::===============================================================================================================
 
-:: De§iŸtirilmemeli / Don't modify (Ohook)
+:: DeÂ§iÅ¸tirilmemeli / Don't modify (Ohook)
 
 -----BEGIN CERTIFICATE_OHOOK-----
 77u/W0NtZGxldEJpbmRpbmcoKV0NCnBhcmFtKA0KICAgIFtzd2l0Y2hdJHIgICMg
@@ -3883,7 +3883,7 @@ bGVlcCAy
 
 ::===============================================================================================================
 
-:: De§iŸtirilmemeli / Don't modify (aktivasyon kontrol/activation check)
+:: DeÂ§iÅ¸tirilmemeli / Don't modify (aktivasyon kontrol/activation check)
 
 -----BEGIN CERTIFICATE_check-----
 IyAtLS0gRN1MIEFZQVJMQVJJIFZFIE1FVN1OTEVSIC0tLQ0KIyAtLS0gTEFOR1VB
@@ -4154,7 +4154,7 @@ dmljZU5vdGlmaWNhdGlvbikNCn0NCg0KU2hvdy1MaWNlbnNlU3RhdHVzUG9wdXA=
 
 ::===============================================================================================================
 
-:: De§iŸtirilmemeli / Don't modify (disableX)
+:: DeÂ§iÅ¸tirilmemeli / Don't modify (disableX)
 
 -----BEGIN CERTIFICATE_disableX-----
 JGNvZGUgPSBAJw0KdXNpbmcgU3lzdGVtOw0KdXNpbmcgU3lzdGVtLlJ1bnRpbWUu
@@ -4187,7 +4187,7 @@ ZSgp
 
 ::===============================================================================================================
 
-:: De§iŸtirilmemeli /Don't modify (center)
+:: DeÂ§iÅ¸tirilmemeli /Don't modify (center)
 
 -----BEGIN CERTIFICATE_center-----
 cGFyYW0oDQogICAgW3N0cmluZ10kVGl0bGVDb250YWlucyA9ICJQTUFTIg0KKQ0K
@@ -4233,5 +4233,6 @@ MikNCg0KICAgICAgICBbVXNlcjMyXTo6TW92ZVdpbmRvdygkaFduZCwgJHgsICR5
 LCAkd2lkdGgsICRoZWlnaHQsICR0cnVlKSB8IE91dC1OdWxsDQoNCgkJV3JpdGUt
 SG9zdCAiICINCiAgICAgICAgJGZvdW5kQW55ID0gJHRydWUNCiAgICB9DQp9
 -----END CERTIFICATE_center-----
+
 
 ::===============================================================================================================
