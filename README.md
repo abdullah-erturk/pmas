@@ -72,7 +72,7 @@ Kullanım esnasında internet bağlantısı yoksa KMS Lisans yöntemiyle lisans 
 > 📶 **TSF-KMS4k yöntemi internetsiz çalışabilir.**
 ---
 
-### 2️⃣ HWID
+### 2️⃣ HWID Aktivasyon
 **(Donanım tabanlı dijital lisanslama)**  
 HWID (Hardware ID) yöntemi Microsoft’un dijital lisans sistemini taklit eder. Tek seferlik aktivasyon sonrasında Microsoft hesabıyla eşleştiğinde kalıcı olur.
 > 🌐 **HWID yöntemi internet gerektirir.**
