@@ -2,9 +2,9 @@
 
 [![made-for-windows](https://img.shields.io/badge/Made%20for-Windows-00A4E3.svg?style=flat&logo=microsoft)](https://www.microsoft.com/)
 [![Open Source?](https://img.shields.io/badge/Open%20source%3F-Of%20course%21%20%E2%9D%A4-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/)
-[![Stable?](https://img.shields.io/badge/Release_Download_Link-v7%2E0%2E0%20%7C%20Stable-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/releases)
+[![Stable?](https://img.shields.io/badge/Release_Download_Link-v8%2E0%2E0%20%7C%20Stable-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/releases)
 
-## 🛠️ PMAS - PowerShell Multi Activation System v7 (formerly TSF Activation)
+## 🛠️ PMAS - PowerShell Multi Activation System v8
 
 ![sample](https://github.com/abdullah-erturk/pmas/blob/main/preview.jpg)
 
@@ -15,7 +15,7 @@
 * Projede kullanılan LibTSforge.dll dosyasını geliştiren [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
 * PowerShell betiğini hazırlamamda bana ilham veren (MDL) **Dark Vador**'a özel teşekkür 🎉
 
-# 🔐 PMAS v7 [Powershell Multi Activation System]
+# 🔐 PMAS v8 [Powershell Multi Activation System]
 
 > Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak için tasarlanmış esnek ve modüler bir çözümdür. TSF yöntemi için Windows ve Office lisanslamasında `LibTSforge.dll` adlı özel bir .NET kütüphanesini bellekten çalıştırır. Ayrıca HWID ve Ohook aktivasyon yöntemlerini de destekleyen full paket bir aktivasyon aracıdır.
 
@@ -72,11 +72,10 @@ Kullanım esnasında internet bağlantısı yoksa KMS Lisans yöntemiyle lisans 
 > 📶 **TSF-KMS4k yöntemi internetsiz çalışabilir.**
 ---
 
-### 2️⃣ HWID / KMS38 Aktivasyon
+### 2️⃣ HWID
 **(Donanım tabanlı dijital lisanslama)**  
-HWID (Hardware ID) yöntemi Microsoft’un dijital lisans sistemini taklit eder. Tek seferlik aktivasyon sonrasında Microsoft hesabıyla eşleştiğinde kalıcı olur. KMS38 ise KMS lisansını 2038 yılına kadar uzatır.  
+HWID (Hardware ID) yöntemi Microsoft’un dijital lisans sistemini taklit eder. Tek seferlik aktivasyon sonrasında Microsoft hesabıyla eşleştiğinde kalıcı olur.
 > 🌐 **HWID yöntemi internet gerektirir.**
-> 🌐 **KMS38 yöntemi internetsiz çalışabilir.**
 
 ---
 
@@ -107,7 +106,7 @@ KMS bağlantı, kalan süre, sürüm tipi ve lisans durumu gibi bilgiler sağlar
 2. Sağ tıklayıp **"Yönetici olarak çalıştırın"**.
 3. Açılan PowerShell menüsünden dilediğiniz aktivasyon modunu seçin:
     - `1` - TSF Aktivasyon
-    - `2` - HWID/KMS38 Aktivasyon
+    - `2` - HWID Aktivasyon
     - `3` - Ohook Aktivasyon [Office]
     - `4` - Ohook Aktivasyon Kaldır
     - `5` - Aktivasyon Kontrolü
@@ -202,11 +201,10 @@ If there is no internet connection during use, the license is assigned using the
 > 📶 **The TSF-KMS4k method can work without an internet connection.**
 ---
 
-### 2️⃣ HWID / KMS38 Activation
+### 2️⃣ HWID Activation
 **(Hardware-Based Digital Licensing)**
-The HWID (Hardware ID) method mimics Microsoft's digital license system. After a one-time activation, it becomes permanent when it matches a Microsoft account. KMS38, on the other hand, extends the KMS license until 2038.
+The HWID (Hardware ID) method mimics Microsoft's digital license system. After a one-time activation, it becomes permanent when it matches a Microsoft account.
 > 🌐 **The HWID method requires an internet connection.**
-> 🌐 **The KMS38 method can work without an internet connection.**
 
 ---
 
@@ -236,7 +234,7 @@ Displays current activation status for installed Windows and Office products —
 2. Right-click and select **"Run as Administrator"**.
 3. Use the interactive PowerShell menu to choose:
     - `1` - TSF Activation
-    - `2` - HWID/KMS38 Activation
+    - `2` - HWID Activation
     - `3` - Ohook Activation [Office]
     - `4` - Remove Ohook Activation
     - `5` - Activation Check
