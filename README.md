@@ -2,9 +2,9 @@
 
 [![made-for-windows](https://img.shields.io/badge/Made%20for-Windows-00A4E3.svg?style=flat&logo=microsoft)](https://www.microsoft.com/)
 [![Open Source?](https://img.shields.io/badge/Open%20source%3F-Of%20course%21%20%E2%9D%A4-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/)
-[![Stable?](https://img.shields.io/badge/Release_Download_Link-v9%2E0%2E0%20%7C%20Stable-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/releases)
+[![Stable?](https://img.shields.io/badge/Release_Download_Link-v10%2E0%2E0%20%7C%20Stable-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/releases)
 
-## 🛠️ PMAS - PowerShell Multi Activation System v9
+## 🛠️ PMAS - PowerShell Multi Activation System v10
 
 ![sample](https://github.com/abdullah-erturk/pmas/blob/main/preview.jpg)
 
@@ -15,7 +15,7 @@
 * Projede kullanılan LibTSforge.dll dosyasını geliştiren [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
 * PowerShell betiğini hazırlamamda bana ilham veren (MDL) **Dark Vador**'a özel teşekkür 🎉
 
-# 📝 PMAS v9 [Powershell Multi Activation System]
+# 📝 PMAS v10 [Powershell Multi Activation System]
 
 > Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak için tasarlanmış esnek ve modüler bir çözümdür. TSF yöntemi için Windows ve Office lisanslamasında `LibTSforge.dll` adlı özel bir .NET kütüphanesini bellekten çalıştırır. Ayrıca HWID, Ohook ve KMS Inject aktivasyon yöntemlerini de destekleyen full paket bir aktivasyon aracıdır.
 
@@ -64,6 +64,7 @@ irm erturk.netlify.app/run | iex
 - Windows 10 (tüm sürümler)
 - Windows 11 (tüm sürümler)
 - Windows Server 2016 / 2019 / 2022 / 2025
+- KMS Host Server (Windows / Office)
 
 ### Office:
 - Office 2010 / 2013 / 2016 / 2019 / 2021 / 2024 / 365
@@ -73,7 +74,7 @@ irm erturk.netlify.app/run | iex
 ## 📋 Aktivasyon Yöntemleri ve Açıklamaları
 
 ### 1️⃣ TSF Aktivasyon
-Bu yöntem telefonla etkinleştirilebilen Windows ve Office ürünlerini MAK-RETAIL-OEM yöntemiyle kalıcı olarak etkinleştirir. 
+Bu yöntem telefonla etkinleştirilebilen Windows ve Office ürünlerini MAK-RETAIL-OEM-ESU (ESU Lisans sadece Windows 10 için geçerlidir) yöntemiyle kalıcı olarak etkinleştirir. 
 Kullanım esnasında internet bağlantısı yoksa KMS Lisans yöntemiyle lisans ataması gerçekleştirir ve süresi 4000 yılı aşkındır.
 > 🔶 **TSF yöntemi internet gerektirir.**
 > 🔶 **TSF-KMS4k yöntemi internetsiz çalışabilir.**
@@ -173,7 +174,7 @@ Windows kurulumu sırasında otomatik aktivasyon için $OEM$ klasörü oluşturu
 
 ## 🔒 Güvenlik Özellikleri
 
-PMAS v9, script bütünlüğünü korumak için SHA256 hash kontrolü içerir. Script değiştirildiğinde veya bozulduğunda çalışmaz ve kullanıcıyı uyarır.
+PMAS v10, script bütünlüğünü korumak için SHA256 hash kontrolü içerir. Script değiştirildiğinde veya bozulduğunda çalışmaz ve kullanıcıyı uyarır.
 
 ---
 
@@ -205,7 +206,7 @@ Bu script yalnızca kişisel kullanım ve eğitim içindir. Microsoft ürünleri
 * Huge thanks to the [MASSGRAVE](https://github.com/massgravel/TSforge) team for developing the `LibTSforge.dll` file used in this project 🎉
 * Special thanks to **Dark Vador** (from MDL) for the inspiration in creating this PowerShell script 🎉
 
-# 📝 PMAS v9 [Powershell Multi Activation System]
+# 📝 PMAS v10 [Powershell Multi Activation System]
 
 > This advanced PowerShell script is a flexible and modular solution designed for licensing Windows and Office products. It runs a custom .NET library called "LibTSforge.dll" from memory for the TSF method of licensing Windows and Office. It's a full-service activation tool that also supports HWID, Ohook, and KMS Inject activation methods.
 
@@ -255,6 +256,7 @@ irm erturk.netlify.app/run | iex
 - Windows 10 (all editions)
 - Windows 11 (all editions)
 - Windows Server 2016 / 2019 / 2022 / 2025
+- KMS Host Server (Windows / Office)
 
 ### Office:
 - Office 2010 / 2013 / 2016 / 2019 / 2021 / 2024 / 365
@@ -264,7 +266,7 @@ irm erturk.netlify.app/run | iex
 ## 📋 Activation Methods Explained
 
 ### 1️⃣ TSF Activation
-This method permanently activates Windows and Office products that can be activated by phone using the MAK-RETAIL-OEM method.
+This method permanently activates Windows and Office products that can be activated by phone using the MAK-RETAIL-OEM-ESU (ESU License is only valid for Windows 10) method.
 
 If there is no internet connection during use, the license is assigned using the KMS License method, and its validity period is over 4000 years.
 > 🔶 **The TSF method requires an internet connection.**
@@ -364,7 +366,7 @@ Creates $OEM$ folder for automatic activation during Windows installation. With 
 
 ## 🔒 Security Features
 
-PMAS v9 includes SHA256 hash verification to maintain script integrity. The script will not run if it has been modified or corrupted and will alert the user.
+PMAS v10 includes SHA256 hash verification to maintain script integrity. The script will not run if it has been modified or corrupted and will alert the user.
 
 ---
 
@@ -384,6 +386,5 @@ Suggestions, improvements, and pull requests are welcome via GitHub.
 This script is for personal and educational use only. Activation of Microsoft products must be done in accordance with applicable license terms.
 
 </details>
-
 
 
