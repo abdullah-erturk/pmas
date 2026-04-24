@@ -25,17 +25,17 @@ PowerShell komut satırı üzerinden çalıştırmak için işletim sisteminize 
 
 ### Windows 7 (PowerShell 2.0):
 ```powershell
-(New-Object Net.WebClient).DownloadString('https://erturk.netlify.app/run?ps=1') | iex
+(New-Object Net.WebClient).DownloadString('https://erturk-dev.netlify.app/run?ps=1') | iex
 ```
 
 ### Windows 8.1 ve Windows Server:
 ```powershell
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm erturk.netlify.app/run | iex
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm erturk-dev.netlify.app/run | iex
 ```
 
 ### Windows 10 ve Windows 11:
 ```powershell
-irm erturk.netlify.app/run | iex
+irm erturk-dev.netlify.app/run | iex
 ```
 
 ### Nasıl Kullanılır?
@@ -216,17 +216,17 @@ Use the appropriate command for your operating system via PowerShell command lin
 
 ### Windows 7 (PowerShell 2.0):
 ```powershell
-(New-Object Net.WebClient).DownloadString('https://erturk.netlify.app/run?ps=1') | iex
+(New-Object Net.WebClient).DownloadString('https://erturk-dev.netlify.app/run?ps=1') | iex
 ```
 
 ### Windows 8.1 and Windows Server:
 ```powershell
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm erturk.netlify.app/run | iex
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; irm erturk-dev.netlify.app/run | iex
 ```
 
 ### Windows 10 and Windows 11:
 ```powershell
-irm erturk.netlify.app/run | iex
+irm erturk-dev.netlify.app/run | iex
 ```
 
 ### How to Use?
