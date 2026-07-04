@@ -2,11 +2,13 @@
 
 [![made-for-windows](https://img.shields.io/badge/Made%20for-Windows-00A4E3.svg?style=flat&logo=microsoft)](https://www.microsoft.com/)
 [![Open Source?](https://img.shields.io/badge/Open%20source%3F-Of%20course%21%20%E2%9D%A4-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/)
-[![Stable?](https://img.shields.io/badge/Release_Download_Link-v12%2E0%2E0%20%7C%20Stable-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/releases)
+[![Stable?](https://img.shields.io/badge/Release_Download_Link-v13%2E0%2E0%20%7C%20Stable-009e0a.svg?style=flat)](https://github.com/abdullah-erturk/pmas/releases)
 
-## 🛠️ PMAS - PowerShell Multi Activation System v12
+## 🛠️ PMAS - PowerShell Multi Activation System v13
 
 ![sample](https://github.com/abdullah-erturk/pmas/blob/main/preview.jpg)
+
+Önizleme resmi eski sürüme ait olabilir / The preview image may be from an older version.
 
 <details>
 <summary><strong>Türkçe Tanıtım</strong></summary>
@@ -15,7 +17,7 @@
 * Projede kullanılan LibTSforge.dll dosyasını geliştiren [MASSGRAVE](https://github.com/massgravel/TSforge) ekibine çok teşekkürler 🎉
 * PowerShell betiğini hazırlamamda bana ilham veren (MDL) **Dark Vador**'a özel teşekkür 🎉
 
-# 📝 PMAS v12 [Powershell Multi Activation System]
+# 📝 PMAS v13 [Powershell Multi Activation System]
 
 > Bu gelişmiş PowerShell scripti, Windows ve Office ürünlerini lisanslamak için tasarlanmış esnek ve modüler bir çözümdür. TSF yöntemi için Windows ve Office lisanslamasında `LibTSforge.dll` adlı özel bir .NET kütüphanesini bellekten çalıştırır. Ayrıca HWID, Ohook ve KMS Inject aktivasyon yöntemlerini de destekleyen full paket bir aktivasyon aracıdır.
 
@@ -174,7 +176,7 @@ Windows kurulumu sırasında otomatik aktivasyon için $OEM$ klasörü oluşturu
 
 ## 🔒 Güvenlik Özellikleri
 
-PMAS v12, script bütünlüğünü korumak için SHA256 hash kontrolü içerir. Script değiştirildiğinde veya bozulduğunda çalışmaz ve kullanıcıyı uyarır.
+PMAS v13, script bütünlüğünü korumak için SHA256 hash kontrolü içerir. Script değiştirildiğinde veya bozulduğunda çalışmaz ve kullanıcıyı uyarır.
 
 ---
 
@@ -206,7 +208,7 @@ Bu script yalnızca kişisel kullanım ve eğitim içindir. Microsoft ürünleri
 * Huge thanks to the [MASSGRAVE](https://github.com/massgravel/TSforge) team for developing the `LibTSforge.dll` file used in this project 🎉
 * Special thanks to **Dark Vador** (from MDL) for the inspiration in creating this PowerShell script 🎉
 
-# 📝 PMAS v12 [Powershell Multi Activation System]
+# 📝 PMAS v13 [Powershell Multi Activation System]
 
 > This advanced PowerShell script is a flexible and modular solution designed for licensing Windows and Office products. It runs a custom .NET library called "LibTSforge.dll" from memory for the TSF method of licensing Windows and Office. It's a full-service activation tool that also supports HWID, Ohook, and KMS Inject activation methods.
 
@@ -366,7 +368,7 @@ Creates $OEM$ folder for automatic activation during Windows installation. With 
 
 ## 🔒 Security Features
 
-PMAS v12 includes SHA256 hash verification to maintain script integrity. The script will not run if it has been modified or corrupted and will alert the user.
+PMAS v13 includes SHA256 hash verification to maintain script integrity. The script will not run if it has been modified or corrupted and will alert the user.
 
 ---
 
